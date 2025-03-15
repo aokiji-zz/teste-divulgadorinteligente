@@ -1,6 +1,7 @@
 Para rodar o build rode os seguintes comandos dentro do diretório do projeto:
 
 yarn global add serve
+
 serve -s build
 
 # Teste Divulgador Inteligente — Vaga Fullstack
