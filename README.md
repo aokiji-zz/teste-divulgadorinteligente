@@ -1,3 +1,8 @@
+Para rodar o build rode os seguintes comandos dentro do diretório do projeto:
+
+yarn global add serve
+serve -s build
+
 # Teste Divulgador Inteligente — Vaga Fullstack
 
 Obrigado pelo interesse na vaga! Abaixo estão as instruções para a realização do teste técnico.
@@ -6,13 +11,16 @@ Obrigado pelo interesse na vaga! Abaixo estão as instruções para a realizaç�
 
 ### 🔗 APIs disponíveis
 
-#### 📦 Produtos  
+#### 📦 Produtos
+
 `GET` [https://api.divulgadorinteligente.com/api/products?sitename=espionandopromos&start=0&limit=20](https://api.divulgadorinteligente.com/api/products?sitename=espionandopromos&start=0&limit=20)
 
-#### 🎟️ Cupons  
+#### 🎟️ Cupons
+
 `GET` [https://api.divulgadorinteligente.com/api/coupons/public?sitename=espionandopromos&start=0&limit=10&featured=false](https://api.divulgadorinteligente.com/api/coupons/public?sitename=espionandopromos&start=0&limit=10&featured=false)
 
-#### 🔍 Produtos por nome de cupom  
+#### 🔍 Produtos por nome de cupom
+
 `GET` [https://api.divulgadorinteligente.com/api/products?sitename=espionandopromos&start=0&limit=20&sellers[]=magalu&coupon={coupon-name}](https://api.divulgadorinteligente.com/api/products?sitename=espionandopromos&start=0&limit=20&sellers[]=magalu&coupon={coupon-name})
 
 ---

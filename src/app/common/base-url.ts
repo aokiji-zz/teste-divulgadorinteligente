@@ -1,0 +1,1 @@
+export const urlBaseApiDev = 'https://api.divulgadorinteligente.com/api'
